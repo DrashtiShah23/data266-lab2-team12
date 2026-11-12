@@ -1,41 +1,41 @@
 id,conversation_id,question_id,answer,figure_references,citations,status
 1,C001,Q001,"The crisis began with falling U.S. housing prices, which exposed poor quality mortgage loans. Defaults and opaque mortgage backed securities then undermined confidence among banks and investors.",NONE,"DOC1:p1,DOC1:p2",answered
 2,C002,Q002,"Higher unemployment means fewer people are working and producing income, and it can persist through weak demand, lost skills and long job searches. It therefore signals both economic slack and social costs.",NONE,DOC1:p7,answered
-3,C003,Q003,"Economists measure real output growth, using inflation adjusted GDP, so changes in prices do not look like changes in production.",NONE,"DOC1:p7,DOC1:Table 1-1",answered
-4,C004,Q004,"World output contracted by 2.3% in 2009, while advanced economies contracted by 3.7% and emerging and developing economies grew by 2.8%.",NONE,DOC1:Table 1-1,answered
-5,C005,Q005,"U.S. unemployment rose sharply, from 4.6% in 2007 to 5.8% in 2008 and 9.3% in 2009, reaching 9.8% in 2010 in the later labor market estimates.",NONE,"DOC1:p7,DOC3:Table B-2",answered
-6,C006,Q006,"China grew about 10.5% per year from 2000 to 2007, 9.6% in 2008, 9.2% in 2009, and 10.3% in 2010 in Document 1's table.",NONE,DOC1:Table 1-4,answered
+3,C003,Q003,"Economists measure real output growth using inflation adjusted GDP, so changes in prices do not look like changes in production.",NONE,DOC1:p24,answered
+4,C004,Q004,"World output contracted by 2.3% in 2009, while advanced economies contracted by 3.7% and emerging and developing economies grew by 2.8%.",Table 1-1,DOC1:Table 1-1,answered
+5,C005,Q005,"U.S. unemployment rose sharply from 4.6% in 2007 to 5.8% in 2008, 9.3% in 2009, and 9.6% in 2010.",Table 1-2,DOC1:Table 1-2,answered
+6,C006,Q006,"China grew about 10.5% per year from 2000 to 2007, 9.6% in 2008, 9.2% in 2009, and 10.3% in 2010 in Document 1's table.",Table 1-4,DOC1:Table 1-4,answered
 7,C007,Q007,"The fall was not limited to the United States. Stock prices in the Euro area and emerging economies also declined substantially, in some periods by as much as the U.S. market.",Figure 1-1,DOC1:Figure 1-1,answered
-8,C008,Q008,"No. Growth can reduce unemployment over time, but the relationship is not automatic. In the United States, unemployment rose during the crisis and later fell while output growth remained modest; the timing and labor market response matter.",NONE,"DOC1:Table 1-2,DOC3:Table B-1",answered
-9,C009,Q009,"No. Consumer price inflation and the GDP deflator usually move together, but they can diverge because they cover different baskets. In 2009 headline CPI fell sharply while the GDP deflator fell only slightly.",Figure B-3,"DOC1:p14,DOC3:Figure B-3",answered
-10,C010,Q010,"Europe had high unemployment even before the crisis because of slow growth and debated labor market institutions, including employment protection and unemployment insurance. The crisis then pushed the rate higher as output fell.",NONE,"DOC1:p10,DOC1:p11",answered
-11,C011,Q011,"China offset weaker export demand with a major fiscal expansion, especially increased public investment, which sustained demand and output.",NONE,DOC1:p13,answered
+8,C008,Q008,"No. Okun's law describes a typical relationship, not a guarantee. Higher output growth usually reduces unemployment, but the effect depends on whether growth is high enough to keep up with labor force growth and productivity.","Figure 2-5,Table B-1","DOC1:Figure 2-5,DOC3:Table B-1",answered
+9,C009,Q009,"No. CPI inflation and GDP deflator inflation usually move together, but they are not always in sync because they measure different baskets. CPI measures consumer prices, while the GDP deflator measures prices of domestically produced output.",Figure 2-4,DOC1:Figure 2-4,answered
+10,C010,Q010,"Europe had high unemployment even before the crisis because of slow growth and debated labor market institutions, including employment protection and unemployment insurance. The crisis then pushed the rate higher as output fell.",Table 1-3,"DOC1:p10,DOC1:p11,DOC1:Table 1-3",answered
+11,C011,Q011,"China offset weaker export demand with a major fiscal expansion, especially increased public investment, which sustained demand and output.",Table 1-4,"DOC1:p13,DOC1:Table 1-4",answered
 12,C012,Q012,"Banks bundled and repackaged mortgages into securities sold to banks and investors. Their complexity and uncertain value made banks reluctant to lend to one another, turning falling housing prices into a wider financial crisis.",NONE,"DOC1:p2,DOC1:p3",answered
 13,C013,Q013,"Consumption tends to fall when housing prices fall because households lose housing wealth, become more uncertain about the future, and cut spending.",NONE,"DOC1:p3,DOC1:p4",answered
 14,C014,Q014,A recession is a decrease in output.,NONE,DOC1:p1,answered
-15,C015,Q015,Emerging and developing economies grew faster before the crisis: 6.5% per year on average from 2000 to 2007 versus 2.6% for advanced economies.,NONE,DOC1:Table 1-1,answered
+15,C015,Q015,Emerging and developing economies grew faster before the crisis: 6.5% per year on average from 2000 to 2007 versus 2.6% for advanced economies.,Table 1-1,DOC1:Table 1-1,answered
 16,C016,Q016,Figure A-2 projected the Euro area unemployment rate at 9.9% in 2012 in the September 2011 forecast vintage.,Figure A-2,DOC2:Figure A-2,answered
 17,C017,Q017,Figure A-3 reported the Euro area unemployment rate at 11.4% in 2012 in the March 2014 outturn vintage.,Figure A-3,DOC2:Figure A-3,answered
 18,C018,Q018,"The Euro area stock price index was about 0.45 in March 2009, using the January 2007 base of 1.0.",Figure A-4,DOC2:Figure A-4,answered
 19,C019,Q019,"The U.S. stock price index was about 1.57 in December 2010, using the January 2009 base of 1.0.",Figure A-5,DOC2:Figure A-5,answered
 20,C020,Q020,Austria had the same unemployment rate in both figures: 4.4% in 2010 and 4.4% in 2012.,"Figure A-6,Figure A-7","DOC2:Figure A-6,DOC2:Figure A-7",answered
-21,C021,Q021,China's registered urban unemployment rate was 4.1% in 2012.,Figure B-5 (corrected),"DOC3:Figure B-5 (corrected),DOC2:Table A-2",answered
+21,C021,Q021,China's registered urban unemployment rate was 4.1% in 2012.,Figure B-5 (corrected),DOC3:Figure B-5 (corrected),answered
 22,C022,Q022,Core CPI inflation exceeded headline CPI inflation by 2.1 percentage points in 2009: 1.7% versus −0.4%.,Figure B-4,DOC3:Figure B-4,answered
-23,C023,Q023,The forecast error was −1.8 percentage points: the 2012 outturn was −0.7% versus a fall 2011 forecast of 1.1%.,NONE,DOC2:Table A-2,answered
-24,C024,Q024,"Using Document 1's approximate slope of −0.4 and 2012 U.S. output growth of 2.3%, the predicted change is about +0.3 percentage points because growth was about 0.7 points below the 3% needed to hold unemployment constant. The actual U.S. unemployment rate fell from 8.9% in 2011 to 8.1% in 2012, a −0.8 point change.",NONE,"DOC1:Table 2-2,DOC2:Table A-2",answered
-25,C025,Q025,The U.S. unemployment rate was 9.6% in 2010 in Document 1's September 2011 vintage.,NONE,DOC1:Table 1-2,answered
-26,C026,Q026,China's output growth was 7.7% in 2012.,NONE,DOC2:Table A-2,answered
-27,C027,Q027,U.S. output growth was 2.4% in 2010; this is the revised outturn where applicable.,NONE,DOC2:Table A-2,answered
-28,C028,Q028,"The relevant evidence is in the retrieved document passage, but it does not provide a sufficiently specific supported value for this question.",NONE,DOC1:p14,not_found
-29,C029,Q029,"China did not contract in the trusted documents. Document 1 reports 9.2% growth in 2009; its exports slowed, but fiscal expansion and public investment offset much of the demand shock.",NONE,"DOC1:Table 1-4,DOC1:p13",false_premise
+23,C023,Q023,The forecast error was −1.8 percentage points: the 2012 outturn was −0.7% versus a fall 2011 forecast of 1.1%.,Table A-2,DOC2:Table A-2,answered
+24,C024,Q024,"Using Document 1's approximate Okun's law slope of −0.4 and 2012 U.S. output growth of 2.3%, the predicted unemployment change is about +0.3 percentage points. The actual rate fell from 8.9% in 2011 to 8.1% in 2012, a −0.8 point change.","Figure 2-5,Table A-2","DOC1:p31,DOC1:Figure 2-5,DOC2:Table A-2",answered
+25,C025,Q025,The U.S. unemployment rate was 9.6% in 2010 in Document 1's September 2011 vintage.,Table 1-2,DOC1:Table 1-2,answered
+26,C026,Q026,China's output growth was 7.7% in 2012.,Table A-2,DOC2:Table A-2,answered
+27,C027,Q027,U.S. output growth was 2.4% in 2010; this is the revised outturn where applicable.,Table A-2,DOC2:Table A-2,answered
+28,C028,Q028,The documents do not report India's unemployment rate for 2010.,NONE,NONE,not_found
+29,C029,Q029,"China did not contract in the trusted documents. Document 1 reports 9.2% growth in 2009; its exports slowed, but fiscal expansion and public investment offset much of the demand shock.",Table 1-4,"DOC1:Table 1-4,DOC1:p13",false_premise
 30,C030,Q030,"Lehman Brothers went bankrupt on September 15, 2008.",NONE,DOC1:p3,answered
-31,C031,Q031,The Euro area unemployment rate was 11.4% in 2012 in the March 2014 outturn vintage.,Figure A-3,"DOC2:Table A-2,DOC2:Figure A-3",answered
-32,C032,Q032,"The U.S. federal budget balance was -1.7% of GDP, with revenues at 18.9% and spending at 20.6%.",NONE,DOC2:Table A-3,answered
-33,C032,Q033,"In 2013, revenues were 17.5% of GDP, spending was 21.6%, and the budget balance was −4.1% of GDP.",NONE,DOC2:Table A-3,answered
-34,C032,Q034,"Spending was larger: 23.2% of GDP versus revenue of 16.4%, a difference of 6.8% of GDP.",NONE,DOC2:Table A-3,answered
-35,C033,Q035,"Under the session assumption of −6.0%, Euro area output would have fallen 2.3 percentage points more than the advanced economy average of −3.7% in 2009. Document 1 itself reports −4.2% for the Euro area.",NONE,"DOC1:Table 1-3,DOC1:Table 1-1",session_override
-36,C033,Q036,Document 1 reports that Euro area output fell by 4.2% in 2009.,NONE,DOC1:Table 1-3,answered
+31,C031,Q031,The Euro area unemployment rate was 11.4% in 2012 in the March 2014 outturn vintage.,Table A-2,DOC2:Table A-2,answered
+32,C032,Q032,"The U.S. federal budget balance was -1.7% of GDP, with revenues at 18.9% and spending at 20.6%.",Table A-3,DOC2:Table A-3,answered
+33,C032,Q033,"In 2013, revenues were 17.5% of GDP, spending was 21.6%, and the budget balance was −4.1% of GDP.",Table A-3,DOC2:Table A-3,answered
+34,C032,Q034,"Spending was larger: 23.2% of GDP versus revenue of 16.4%, a difference of 6.8% of GDP.",Table A-3,DOC2:Table A-3,answered
+35,C033,Q035,"Under the session assumption of −6.0%, Euro area output would have fallen 2.3 percentage points more than the advanced economy average of −3.7% in 2009. Document 1 itself reports −4.2% for the Euro area.","Table 1-3,Table 1-1","DOC1:Table 1-3,DOC1:Table 1-1",session_override
+36,C033,Q036,Document 1 reports that Euro area output fell by 4.2% in 2009.,Table 1-3,DOC1:Table 1-3,answered
 37,C033,Q037,I cannot change the read-only knowledge base. A value supplied in a conversation can only be used temporarily in that conversation.,NONE,NONE,session_override
-38,C034,Q038,Document 1 reports that Euro area output fell by 4.2% in 2009.,NONE,DOC1:Table 1-3,answered
-39,C035,Q039,"For this conversation only, I will use the supplied value of 7.3% for 2014. The base documents remain unchanged.",NONE,NONE,session_override
-40,C035,Q040,No. The documents report China through 2013; the 2014 value came from your conversation.,NONE,DOC2:Table A-2,not_found
+38,C034,Q038,Document 1 reports that Euro area output fell by 4.2% in 2009.,Table 1-3,DOC1:Table 1-3,answered
+39,C035,Q039,"For this conversation only, China's supplied 2014 output growth is 7.3%. The 2013 outturn was 7.7%, so the supplied 2014 value is 0.4 percentage points lower. The base documents remain unchanged.",NONE,DOC2:Table A-2,session_override
+40,C035,Q040,No. The documents report China through 2013; the 2014 value came from your conversation.,NONE,NONE,not_found
