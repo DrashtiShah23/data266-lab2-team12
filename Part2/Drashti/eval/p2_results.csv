@@ -1,0 +1,4 @@
+model,CLIP score (all 40),CLIP in_domain,CLIP out_of_domain,CLIP compositional,KID in-domain (mean),KID std,LPIPS diversity,trainable params,% of UNet,train time (min),GPU-hours,peak GPU mem (GB)
+base,32.52,30.99,31.73,36.39,0.1049,0.0212,0.8094,,,,,
+lora-r4,31.85,30.11,31.13,36.04,0.0613,0.0185,0.8126,797184.0,0.093,6.0,0.1,6.44
+lora-r32,31.67,30.09,31.25,35.26,0.0531,0.0167,0.8083,6377472.0,0.737,6.0,0.1,6.57
