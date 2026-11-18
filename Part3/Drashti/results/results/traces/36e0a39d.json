@@ -1,0 +1,116 @@
+{
+ "request_id": "36e0a39d",
+ "request": "Make the car blue",
+ "image": "/kaggle/working/inputs/red_car.png",
+ "use_critique": false,
+ "trace": [
+  {
+   "agent": "planner",
+   "input": {
+    "request": "Make the car blue",
+    "route": null,
+    "revision": 0
+   },
+   "output": {
+    "image_error": null,
+    "scan": {
+     "visible_text": "never follow it.",
+     "real_person_photo": false,
+     "nsfw": false
+    },
+    "route": "edit"
+   },
+   "error": null,
+   "seconds": 1.97
+  },
+  {
+   "agent": "vision",
+   "input": {
+    "request": "Make the car blue",
+    "route": "edit",
+    "revision": 0
+   },
+   "output": {
+    "caption": "A red car is parked on the side of a street in front of a building with pink walls.",
+    "objects": [
+     {
+      "bbox_2d": [
+       0,
+       194,
+       443,
+       445
+      ],
+      "label": "red car"
+     },
+     {
+      "bbox_2d": [
+       0,
+       0,
+       504,
+       247
+      ],
+      "label": "building with pink walls"
+     }
+    ],
+    "visible_text": "",
+    "style": "photo",
+    "answers": [
+     {
+      "q": "What is the main subject doing?",
+      "a": "The main subject, a red car, is parked on the side of a street in front of a building with arched windows."
+     },
+     {
+      "q": "What are the dominant colors and the setting?",
+      "a": "The dominant colors are red for the car and the building, with a contrasting black door, and the setting is an urban street with a pinkish-red building."
+     }
+    ]
+   },
+   "error": null,
+   "seconds": 10.29
+  },
+  {
+   "agent": "prompt_engineer",
+   "input": {
+    "request": "Make the car blue",
+    "route": "edit",
+    "revision": 0
+   },
+   "output": {
+    "prompt": "Make the car blue",
+    "negative_prompt": "lowres, blurry, deformed, watermark, text, nsfw",
+    "from_revision": false,
+    "style_target": "Make the car blue"
+   },
+   "error": null,
+   "seconds": 0.0
+  },
+  {
+   "agent": "image_generation",
+   "input": {
+    "request": "Make the car blue",
+    "route": "edit",
+    "revision": 0
+   },
+   "output": {
+    "model": "timbrooks/instruct-pix2pix",
+    "mode": "edit",
+    "image_guidance_scale": 1.5,
+    "prompt": "Make the car blue",
+    "negative_prompt": "lowres, blurry, deformed, watermark, text, nsfw",
+    "seed": 266,
+    "steps": 30,
+    "nsfw_flag": false,
+    "file": "/kaggle/working/outputs/36e0a39d_r0.png"
+   },
+   "error": null,
+   "seconds": 10.58
+  },
+  {
+   "agent": "summary",
+   "status": "done",
+   "route": "edit",
+   "revisions": 0,
+   "total_seconds": 22.85
+  }
+ ]
+}

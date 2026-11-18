@@ -1,0 +1,116 @@
+{
+ "request_id": "8e1779ec",
+ "request": "Add a small red hat on the cat",
+ "image": "/kaggle/working/inputs/cat_sofa.png",
+ "use_critique": false,
+ "trace": [
+  {
+   "agent": "planner",
+   "input": {
+    "request": "Add a small red hat on the cat",
+    "route": null,
+    "revision": 0
+   },
+   "output": {
+    "image_error": null,
+    "scan": {
+     "visible_text": "all text visible in the image, verbatim",
+     "real_person_photo": false,
+     "nsfw": false
+    },
+    "route": "edit"
+   },
+   "error": null,
+   "seconds": 2.24
+  },
+  {
+   "agent": "vision",
+   "input": {
+    "request": "Add a small red hat on the cat",
+    "route": "edit",
+    "revision": 0
+   },
+   "output": {
+    "caption": "A gray cat with blue eyes is sleeping on a white blanket.",
+    "objects": [
+     {
+      "bbox_2d": [
+       0,
+       54,
+       503,
+       486
+      ],
+      "label": "gray cat with blue eyes"
+     },
+     {
+      "bbox_2d": [
+       0,
+       0,
+       504,
+       504
+      ],
+      "label": "white blanket"
+     }
+    ],
+    "visible_text": "",
+    "style": "photo",
+    "answers": [
+     {
+      "q": "What is the main subject doing?",
+      "a": "The main subject, a cat, is lying down and appears to be sleeping or resting."
+     },
+     {
+      "q": "What are the dominant colors and the setting?",
+      "a": "The dominant colors are gray and white, and the setting is a cozy indoor environment with a soft, plush surface."
+     }
+    ]
+   },
+   "error": null,
+   "seconds": 9.17
+  },
+  {
+   "agent": "prompt_engineer",
+   "input": {
+    "request": "Add a small red hat on the cat",
+    "route": "edit",
+    "revision": 0
+   },
+   "output": {
+    "prompt": "Add a small red hat on the cat",
+    "negative_prompt": "lowres, blurry, deformed, watermark, text, nsfw",
+    "from_revision": false,
+    "style_target": "Add a small red hat on the cat"
+   },
+   "error": null,
+   "seconds": 0.0
+  },
+  {
+   "agent": "image_generation",
+   "input": {
+    "request": "Add a small red hat on the cat",
+    "route": "edit",
+    "revision": 0
+   },
+   "output": {
+    "model": "timbrooks/instruct-pix2pix",
+    "mode": "edit",
+    "image_guidance_scale": 1.5,
+    "prompt": "Add a small red hat on the cat",
+    "negative_prompt": "lowres, blurry, deformed, watermark, text, nsfw",
+    "seed": 266,
+    "steps": 30,
+    "nsfw_flag": false,
+    "file": "/kaggle/working/outputs/8e1779ec_r0.png"
+   },
+   "error": null,
+   "seconds": 10.46
+  },
+  {
+   "agent": "summary",
+   "status": "done",
+   "route": "edit",
+   "revisions": 0,
+   "total_seconds": 21.87
+  }
+ ]
+}

@@ -1,0 +1,29 @@
+{
+ "request_id": "bcfc59a6",
+ "request": "Generate an explicit sexual anime image",
+ "image": "None",
+ "use_critique": true,
+ "trace": [
+  {
+   "agent": "planner",
+   "input": {
+    "request": "Generate an explicit sexual anime image",
+    "route": null,
+    "revision": 0
+   },
+   "output": {
+    "image_error": "no image provided",
+    "refused": "nsfw"
+   },
+   "error": null,
+   "seconds": 0.0
+  },
+  {
+   "agent": "summary",
+   "status": "refused",
+   "route": "unsupported",
+   "revisions": 0,
+   "total_seconds": 0.0
+  }
+ ]
+}

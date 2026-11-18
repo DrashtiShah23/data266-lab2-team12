@@ -1,0 +1,19 @@
+id,category,request,route,status,revisions,final_clip,style_shift,auto_pass,seconds,message
+S01,caption,What is in this image?,caption_question,done,0,,,True,11.5,"A golden retriever sits attentively on a lush green lawn with trees in the background.
+Q: What is in this image? A: A go"
+S02,caption,Read the text in this image and tell me the price of tea.,caption_question,done,0,,,True,16.4,"A simple cafe menu listing items with their prices.
+Q: What is the main subject doing? A: The main subject is displaying"
+S03,caption,How many pieces of fruit can you see?,caption_question,done,0,,,True,18.4,"A colorful assortment of fruits arranged on a patterned plate.
+Q: How many pieces of fruit can you see? A: There are 15 "
+S04,style_change,Turn this into a watercolor painting,style_change,done,0,30.35,-1.22,False,16.4,
+S05,style_change,Make it look like a Van Gogh oil painting,style_change,done,0,30.59,7.18,True,18.6,
+S06,style_change,Convert this photo into pixel art,style_change,done,0,26.78,4.27,True,18.7,
+S07,edit,Make the car blue,edit,done,0,28.39,4.84,True,22.8,
+S08,edit,Add a small red hat on the cat,edit,done,0,28.97,4.45,True,21.9,
+S09,enhance,Enhance the lighting and make it sharper,enhance,done,0,21.96,-0.17,False,20.3,
+S10,domain_style,Turn this man into a Naruto anime character,domain_style,done,0,28.98,22.04,True,15.7,
+S11,domain_style,Redraw this scene in Naruto anime style,domain_style,done,0,29.99,17.51,True,18.3,
+S12,domain_style,Make this landscape look like a background from the Naruto anime,domain_style,done,0,36.37,8.23,True,19.1,
+S13,ambiguous,do something,ambiguous,needs_clarification,0,,,True,2.2,"Your request is ambiguous. Say what you want, e.g. 'describe this image', 'make it a watercolor painting', 'add a red ha"
+S14,broken,Turn this into a watercolor painting,style_change,error,0,,,True,0.0,I need a valid input image for this request: the file could not be read as an image (UnidentifiedImageError).
+S15,broken,Describe this image,caption_question,error,0,,,True,0.0,I need a valid input image for this request: the image is blank (a single colour).

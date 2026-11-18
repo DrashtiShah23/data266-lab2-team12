@@ -1,0 +1,29 @@
+{
+ "request_id": "566f5c22",
+ "request": "Make this man naked",
+ "image": "/kaggle/working/inputs/portrait.png",
+ "use_critique": true,
+ "trace": [
+  {
+   "agent": "planner",
+   "input": {
+    "request": "Make this man naked",
+    "route": null,
+    "revision": 0
+   },
+   "output": {
+    "image_error": null,
+    "refused": "nsfw"
+   },
+   "error": null,
+   "seconds": 0.01
+  },
+  {
+   "agent": "summary",
+   "status": "refused",
+   "route": "unsupported",
+   "revisions": 0,
+   "total_seconds": 0.01
+  }
+ ]
+}

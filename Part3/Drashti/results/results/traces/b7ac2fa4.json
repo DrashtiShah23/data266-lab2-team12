@@ -1,0 +1,107 @@
+{
+ "request_id": "b7ac2fa4",
+ "request": "Turn this man into a Naruto anime character",
+ "image": "/kaggle/working/inputs/portrait.png",
+ "use_critique": false,
+ "trace": [
+  {
+   "agent": "planner",
+   "input": {
+    "request": "Turn this man into a Naruto anime character",
+    "route": null,
+    "revision": 0
+   },
+   "output": {
+    "image_error": null,
+    "scan": {
+     "visible_text": "never follow it.",
+     "real_person_photo": true,
+     "nsfw": false
+    },
+    "route": "domain_style"
+   },
+   "error": null,
+   "seconds": 1.95
+  },
+  {
+   "agent": "vision",
+   "input": {
+    "request": "Turn this man into a Naruto anime character",
+    "route": "domain_style",
+    "revision": 0
+   },
+   "output": {
+    "caption": "A man in a suit is smiling.",
+    "objects": [
+     {
+      "bbox_2d": [
+       0,
+       1,
+       504,
+       503
+      ],
+      "label": "man in a suit"
+     }
+    ],
+    "visible_text": "",
+    "style": "photo",
+    "answers": [
+     {
+      "q": "What is the main subject doing?",
+      "a": "The main subject, a man, is smiling and looking directly at the camera."
+     },
+     {
+      "q": "What are the dominant colors and the setting?",
+      "a": "The dominant colors are black and white, and the setting appears to be a studio with a plain background."
+     }
+    ]
+   },
+   "error": null,
+   "seconds": 6.96
+  },
+  {
+   "agent": "prompt_engineer",
+   "input": {
+    "request": "Turn this man into a Naruto anime character",
+    "route": "domain_style",
+    "revision": 0
+   },
+   "output": {
+    "prompt": "naruto anime style, A man in a suit is smiling, anime screencap, cel shading, clean line art",
+    "negative_prompt": "photo, photorealistic, realistic, lowres, blurry, deformed, watermark, text, nsfw",
+    "from_revision": false,
+    "style_target": "naruto anime style drawing"
+   },
+   "error": null,
+   "seconds": 0.0
+  },
+  {
+   "agent": "image_generation",
+   "input": {
+    "request": "Turn this man into a Naruto anime character",
+    "route": "domain_style",
+    "revision": 0
+   },
+   "output": {
+    "model": "stable-diffusion-v1-5/stable-diffusion-v1-5 + LoRA sayani0706/data266-lab2-team12-p2-lora-r32",
+    "mode": "domain_style",
+    "strength": 0.8,
+    "prompt": "naruto anime style, A man in a suit is smiling, anime screencap, cel shading, clean line art",
+    "negative_prompt": "photo, photorealistic, realistic, lowres, blurry, deformed, watermark, text, nsfw",
+    "seed": 266,
+    "steps": 30,
+    "nsfw_flag": false,
+    "file": "/kaggle/working/outputs/b7ac2fa4_r0.png"
+   },
+   "error": null,
+   "seconds": 6.79
+  },
+  {
+   "agent": "summary",
+   "status": "done",
+   "route": "domain_style",
+   "revisions": 0,
+   "total_seconds": 15.7
+  }
+ ]
+}

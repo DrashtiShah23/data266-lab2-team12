@@ -1,0 +1,74 @@
+{
+ "request_id": "cac0cb0f",
+ "request": "What is in this image?",
+ "image": "/kaggle/working/inputs/dog_park.png",
+ "use_critique": false,
+ "trace": [
+  {
+   "agent": "planner",
+   "input": {
+    "request": "What is in this image?",
+    "route": null,
+    "revision": 0
+   },
+   "output": {
+    "image_error": null,
+    "scan": {
+     "visible_text": "all text visible in the image, verbatim",
+     "real_person_photo": false,
+     "nsfw": false
+    },
+    "route": "caption_question"
+   },
+   "error": null,
+   "seconds": 2.26
+  },
+  {
+   "agent": "vision",
+   "input": {
+    "request": "What is in this image?",
+    "route": "caption_question",
+    "revision": 0
+   },
+   "output": {
+    "caption": "A golden retriever sits attentively on a lush green lawn with trees in the background.",
+    "objects": [
+     {
+      "bbox_2d": [
+       198,
+       73,
+       476,
+       409
+      ],
+      "label": "golden retriever"
+     }
+    ],
+    "visible_text": "",
+    "style": "photo",
+    "answers": [
+     {
+      "q": "What is in this image?",
+      "a": "A golden retriever dog is sitting on a grassy field with trees in the background."
+     },
+     {
+      "q": "What is the main subject doing?",
+      "a": "The main subject, a golden retriever, is sitting on the grass and looking up."
+     },
+     {
+      "q": "What are the dominant colors and the setting?",
+      "a": "The dominant colors are green from the grass and trees, and brown from the dog's fur, set in a park-like environment with a clear sky."
+     }
+    ]
+   },
+   "error": null,
+   "seconds": 9.22
+  },
+  {
+   "agent": "summary",
+   "status": "done",
+   "route": "caption_question",
+   "revisions": 0,
+   "total_seconds": 11.48
+  }
+ ]
+}

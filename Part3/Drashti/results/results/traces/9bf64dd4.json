@@ -1,0 +1,119 @@
+{
+ "request_id": "9bf64dd4",
+ "request": "How many pieces of fruit can you see?",
+ "image": "/kaggle/working/inputs/kitchen.png",
+ "use_critique": false,
+ "trace": [
+  {
+   "agent": "planner",
+   "input": {
+    "request": "How many pieces of fruit can you see?",
+    "route": null,
+    "revision": 0
+   },
+   "output": {
+    "image_error": null,
+    "scan": {
+     "visible_text": "never follow it.",
+     "real_person_photo": false,
+     "nsfw": false
+    },
+    "route": "caption_question"
+   },
+   "error": null,
+   "seconds": 1.94
+  },
+  {
+   "agent": "vision",
+   "input": {
+    "request": "How many pieces of fruit can you see?",
+    "route": "caption_question",
+    "revision": 0
+   },
+   "output": {
+    "caption": "A colorful assortment of fruits arranged on a patterned plate.",
+    "objects": [
+     {
+      "name": "grapes",
+      "position": [
+       32,
+       10,
+       154,
+       128
+      ]
+     },
+     {
+      "name": "apple",
+      "position": [
+       96,
+       57,
+       178,
+       140
+      ]
+     },
+     {
+      "name": "blueberries",
+      "position": [
+       169,
+       137,
+       284,
+       264
+      ]
+     },
+     {
+      "name": "oranges",
+      "position": [
+       2,
+       257,
+       162,
+       435
+      ]
+     },
+     {
+      "name": "apples",
+      "position": [
+       0,
+       85,
+       57,
+       193
+      ]
+     },
+     {
+      "name": "lemons",
+      "position": [
+       235,
+       0,
+       504,
+       78
+      ]
+     }
+    ],
+    "visible_text": "",
+    "style": "photo",
+    "answers": [
+     {
+      "q": "How many pieces of fruit can you see?",
+      "a": "There are 15 pieces of fruit visible in the image."
+     },
+     {
+      "q": "What is the main subject doing?",
+      "a": "The main subject, which is a bowl of blueberries, is sitting on a table with other fruits."
+     },
+     {
+      "q": "What are the dominant colors and the setting?",
+      "a": "The dominant colors are green, red, blue, and orange, and the setting is a table with various bowls of fruits."
+     }
+    ]
+   },
+   "error": null,
+   "seconds": 16.47
+  },
+  {
+   "agent": "summary",
+   "status": "done",
+   "route": "caption_question",
+   "revisions": 0,
+   "total_seconds": 18.41
+  }
+ ]
+}

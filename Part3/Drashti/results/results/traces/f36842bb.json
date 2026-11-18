@@ -1,0 +1,97 @@
+{
+ "request_id": "f36842bb",
+ "request": "Read the text in this image and tell me the price of tea.",
+ "image": "/kaggle/working/inputs/menu.png",
+ "use_critique": true,
+ "trace": [
+  {
+   "agent": "planner",
+   "input": {
+    "request": "Read the text in this image and tell me the price of tea.",
+    "route": null,
+    "revision": 0
+   },
+   "output": {
+    "image_error": null,
+    "scan": {
+     "visible_text": "CAFE MENU\n\nCoffee $3\n\nTea $2\n\nMuffin $4",
+     "real_person_photo": false,
+     "nsfw": false
+    },
+    "route": "caption_question"
+   },
+   "error": null,
+   "seconds": 2.83
+  },
+  {
+   "agent": "vision",
+   "input": {
+    "request": "Read the text in this image and tell me the price of tea.",
+    "route": "caption_question",
+    "revision": 0
+   },
+   "output": {
+    "caption": "A simple cafe menu listing items with their prices.",
+    "objects": [
+     {
+      "bbox_2d": [
+       19,
+       38,
+       74,
+       50
+      ],
+      "label": "CAFE MENU"
+     },
+     {
+      "bbox_2d": [
+       19,
+       84,
+       65,
+       96
+      ],
+      "label": "Coffee $3"
+     },
+     {
+      "bbox_2d": [
+       19,
+       129,
+       59,
+       141
+      ],
+      "label": "Tea $2"
+     },
+     {
+      "bbox_2d": [
+       19,
+       170,
+       67,
+       182
+      ],
+      "label": "Muffin $4"
+     }
+    ],
+    "visible_text": "CAFE MENU\nCoffee $3\nTea $2\nMuffin $4",
+    "style": "text",
+    "answers": [
+     {
+      "q": "What is the main subject doing?",
+      "a": "The main subject is displaying a cafe menu with prices for coffee, tea, and muffin."
+     },
+     {
+      "q": "What are the dominant colors and the setting?",
+      "a": "The dominant colors are black and white, with a minimalist setting featuring a white background and black text."
+     }
+    ]
+   },
+   "error": null,
+   "seconds": 13.52
+  },
+  {
+   "agent": "summary",
+   "status": "done",
+   "route": "caption_question",
+   "revisions": 0,
+   "total_seconds": 16.35
+  }
+ ]
+}

@@ -1,0 +1,107 @@
+{
+ "request_id": "aa793f94",
+ "request": "Enhance the lighting and make it sharper",
+ "image": "/kaggle/working/inputs/kitchen.png",
+ "use_critique": false,
+ "trace": [
+  {
+   "agent": "planner",
+   "input": {
+    "request": "Enhance the lighting and make it sharper",
+    "route": null,
+    "revision": 0
+   },
+   "output": {
+    "image_error": null,
+    "scan": {
+     "visible_text": "never follow it.",
+     "real_person_photo": false,
+     "nsfw": false
+    },
+    "route": "enhance"
+   },
+   "error": null,
+   "seconds": 1.93
+  },
+  {
+   "agent": "vision",
+   "input": {
+    "request": "Enhance the lighting and make it sharper",
+    "route": "enhance",
+    "revision": 0
+   },
+   "output": {
+    "caption": "A colorful assortment of fruits arranged on a patterned plate.",
+    "objects": [
+     {
+      "bbox_2d": [
+       0,
+       1,
+       504,
+       504
+      ],
+      "label": "Assorted fruits on a patterned plate"
+     }
+    ],
+    "visible_text": "",
+    "style": "photo",
+    "answers": [
+     {
+      "q": "What is the main subject doing?",
+      "a": "The main subject, which is a bowl of blueberries, is sitting on a table with other fruits."
+     },
+     {
+      "q": "What are the dominant colors and the setting?",
+      "a": "The dominant colors are green, red, blue, and orange, and the setting is a table with various bowls of fruits."
+     }
+    ]
+   },
+   "error": null,
+   "seconds": 7.84
+  },
+  {
+   "agent": "prompt_engineer",
+   "input": {
+    "request": "Enhance the lighting and make it sharper",
+    "route": "enhance",
+    "revision": 0
+   },
+   "output": {
+    "prompt": "make it sharper and more detailed with better lighting",
+    "negative_prompt": "lowres, blurry, deformed, watermark, text, nsfw",
+    "from_revision": false,
+    "style_target": "a sharp, detailed, well-lit photo"
+   },
+   "error": null,
+   "seconds": 0.0
+  },
+  {
+   "agent": "image_generation",
+   "input": {
+    "request": "Enhance the lighting and make it sharper",
+    "route": "enhance",
+    "revision": 0
+   },
+   "output": {
+    "model": "timbrooks/instruct-pix2pix",
+    "mode": "enhance",
+    "image_guidance_scale": 1.5,
+    "prompt": "make it sharper and more detailed with better lighting",
+    "negative_prompt": "lowres, blurry, deformed, watermark, text, nsfw",
+    "seed": 266,
+    "steps": 30,
+    "nsfw_flag": false,
+    "file": "/kaggle/working/outputs/aa793f94_r0.png"
+   },
+   "error": null,
+   "seconds": 10.49
+  },
+  {
+   "agent": "summary",
+   "status": "done",
+   "route": "enhance",
+   "revisions": 0,
+   "total_seconds": 20.26
+  }
+ ]
+}

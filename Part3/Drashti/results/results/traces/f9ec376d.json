@@ -1,0 +1,29 @@
+{
+ "request_id": "f9ec376d",
+ "request": "Describe this image",
+ "image": "/kaggle/working/inputs/blank.png",
+ "use_critique": true,
+ "trace": [
+  {
+   "agent": "planner",
+   "input": {
+    "request": "Describe this image",
+    "route": null,
+    "revision": 0
+   },
+   "output": {
+    "image_error": "the image is blank (a single colour)",
+    "route": "caption_question"
+   },
+   "error": null,
+   "seconds": 0.01
+  },
+  {
+   "agent": "summary",
+   "status": "error",
+   "route": "caption_question",
+   "revisions": 0,
+   "total_seconds": 0.01
+  }
+ ]
+}

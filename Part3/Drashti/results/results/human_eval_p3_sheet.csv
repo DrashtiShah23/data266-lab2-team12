@@ -1,0 +1,19 @@
+id,category,request,status,message,rater1_pass,rater2_pass
+S01,caption,What is in this image?,done,"A golden retriever sits attentively on a lush green lawn with trees in the background.
+Q: What is in this image? A: A go",,
+S02,caption,Read the text in this image and tell me the price of tea.,done,"A simple cafe menu listing items with their prices.
+Q: What is the main subject doing? A: The main subject is displaying",,
+S03,caption,How many pieces of fruit can you see?,done,"A colorful assortment of fruits arranged on a patterned plate.
+Q: How many pieces of fruit can you see? A: There are 15 ",,
+S04,style_change,Turn this into a watercolor painting,done,Accepted by critic.,,
+S05,style_change,Make it look like a Van Gogh oil painting,done,Accepted by critic.,,
+S06,style_change,Convert this photo into pixel art,done,Accepted by critic.,,
+S07,edit,Make the car blue,done,Accepted by critic.,,
+S08,edit,Add a small red hat on the cat,done,Accepted by critic.,,
+S09,enhance,Enhance the lighting and make it sharper,done,Accepted by critic.,,
+S10,domain_style,Turn this man into a Naruto anime character,done,Accepted by critic.,,
+S11,domain_style,Redraw this scene in Naruto anime style,done,Accepted by critic.,,
+S12,domain_style,Make this landscape look like a background from the Naruto anime,done,Accepted by critic.,,
+S13,ambiguous,do something,needs_clarification,"Your request is ambiguous. Say what you want, e.g. 'describe this image', 'make it a watercolor painting', 'add a red ha",,
+S14,broken,Turn this into a watercolor painting,error,I need a valid input image for this request: the file could not be read as an image (UnidentifiedImageError).,,
+S15,broken,Describe this image,error,I need a valid input image for this request: the image is blank (a single colour).,,

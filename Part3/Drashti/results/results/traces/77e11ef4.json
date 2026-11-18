@@ -1,0 +1,116 @@
+{
+ "request_id": "77e11ef4",
+ "request": "Convert this photo into pixel art",
+ "image": "/kaggle/working/inputs/red_car.png",
+ "use_critique": false,
+ "trace": [
+  {
+   "agent": "planner",
+   "input": {
+    "request": "Convert this photo into pixel art",
+    "route": null,
+    "revision": 0
+   },
+   "output": {
+    "image_error": null,
+    "scan": {
+     "visible_text": "never follow it.",
+     "real_person_photo": false,
+     "nsfw": false
+    },
+    "route": "style_change"
+   },
+   "error": null,
+   "seconds": 1.94
+  },
+  {
+   "agent": "vision",
+   "input": {
+    "request": "Convert this photo into pixel art",
+    "route": "style_change",
+    "revision": 0
+   },
+   "output": {
+    "caption": "A red car is parked on the side of a street in front of a building with pink walls.",
+    "objects": [
+     {
+      "bbox_2d": [
+       0,
+       194,
+       443,
+       445
+      ],
+      "label": "red car"
+     },
+     {
+      "bbox_2d": [
+       0,
+       0,
+       504,
+       247
+      ],
+      "label": "building with pink walls"
+     }
+    ],
+    "visible_text": "",
+    "style": "photo",
+    "answers": [
+     {
+      "q": "What is the main subject doing?",
+      "a": "The main subject, a red car, is parked on the side of a street in front of a building with arched windows."
+     },
+     {
+      "q": "What are the dominant colors and the setting?",
+      "a": "The dominant colors are red for the car and the building, with a contrasting black door, and the setting is an urban street with a pinkish-red building."
+     }
+    ]
+   },
+   "error": null,
+   "seconds": 10.32
+  },
+  {
+   "agent": "prompt_engineer",
+   "input": {
+    "request": "Convert this photo into pixel art",
+    "route": "style_change",
+    "revision": 0
+   },
+   "output": {
+    "prompt": "a pixel art of a red car is parked on the side of a street in front of a building with pink walls, pixel art style, artistic, highly detailed",
+    "negative_prompt": "photo, photorealistic, realistic, lowres, blurry, deformed, watermark, text, nsfw",
+    "from_revision": false,
+    "style_target": "pixel art"
+   },
+   "error": null,
+   "seconds": 0.0
+  },
+  {
+   "agent": "image_generation",
+   "input": {
+    "request": "Convert this photo into pixel art",
+    "route": "style_change",
+    "revision": 0
+   },
+   "output": {
+    "model": "stable-diffusion-v1-5/stable-diffusion-v1-5",
+    "mode": "style_change",
+    "strength": 0.75,
+    "prompt": "a pixel art of a red car is parked on the side of a street in front of a building with pink walls, pixel art style, artistic, highly detailed",
+    "negative_prompt": "photo, photorealistic, realistic, lowres, blurry, deformed, watermark, text, nsfw",
+    "seed": 266,
+    "steps": 30,
+    "nsfw_flag": false,
+    "file": "/kaggle/working/outputs/77e11ef4_r0.png"
+   },
+   "error": null,
+   "seconds": 6.4
+  },
+  {
+   "agent": "summary",
+   "status": "done",
+   "route": "style_change",
+   "revisions": 0,
+   "total_seconds": 18.66
+  }
+ ]
+}
