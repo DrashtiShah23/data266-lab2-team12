@@ -9,7 +9,7 @@ data/
   part1/              Supplied Part 1 knowledge base and public questions
 src/
   part1/              Part 1 retrieval and answering implementation
-notebooks/
+Part1/Shared/notebooks/
   p1_rag.ipynb        Executed Part 1 notebook
   p2_finetune.ipynb   Add during Part 2
   p3_agents.ipynb     Add during Part 3
@@ -29,8 +29,8 @@ part3/                Part 3 source files and demo assets
 python3 -m venv .venv
 source .venv/bin/activate
 python3 -m pip install -r requirements.txt
-python3 run_p1.py
-python3 data/part1/validate_submission.py outputs/part1/submission_public.csv data/part1/Questions.csv
+python3 Part1/Shared/run_p1.py
+python3 Part1/Shared/data/part1/validate_submission.py Part1/Shared/outputs/part1/submission_public.csv Part1/Shared/data/part1/Questions.csv
 ```
 
 The public questions are for practice. The final Kaggle notebook must read the mounted questions path and generate `submission.csv` without manually entering answers.
