@@ -1,0 +1,8 @@
+GitHub: https://github.com/DrashtiShah23/data266-lab2-team12
+p1-v1.0 commit: <sha>
+p2-v1.0 commit: <sha>
+p3-v1.0 commit: <sha>
+HF Part 2 run 1: https://huggingface.co/sayani0706/data266-lab2-team12-p2-lora-r4
+HF Part 2 run 2: https://huggingface.co/sayani0706/data266-lab2-team12-p2-lora-r32
+HF Part 2 images: https://huggingface.co/datasets/sayani0706/data266-lab2-team12-p2-images
+Kaggle notebook: <link>
