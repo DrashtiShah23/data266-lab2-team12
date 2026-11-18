@@ -1,0 +1,11 @@
+cp ~/Downloads/DATA266_Lab2_Part1.ipynb \
+Part1/Drashti/notebooks/p1_rag_kaggle_final.ipynb
+
+cp ~/Downloads/evaluation_summary.csv \
+Part1/Drashti/eval/evaluation_summary.csv
+
+cp ~/Downloads/evaluation_per_question.csv \
+Part1/Drashti/eval/evaluation_per_question.csv
+
+cp ~/Downloads/DATA266_Lab2_Part1.ipynb \
+Part1/Shared/notebooks/p1_rag.ipynb

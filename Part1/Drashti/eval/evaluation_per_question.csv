@@ -1,0 +1,41 @@
+question_id,gold status,question,Baseline (plain TF-IDF RAG),Generic pipeline (no query plans),Final (submitted)
+Q001,answered,What sparked the global economic crisis around 2008?,False,False,True
+Q002,answered,Why should we worry about unemployment rates going up?,False,False,True
+Q003,answered,How do economists measure economic growth without price changes messin,False,False,True
+Q004,answered,How bad did the world economy get hit during the 2009 recession?,False,False,True
+Q005,answered,What happened to U.S. unemployment after the 2008 crisis kicked in?,False,False,True
+Q006,answered,How much did China’s economy grow yearly before and during the crisis?,False,False,True
+Q007,answered,"Did the 2008 crisis tank stock markets everywhere, or just in the U.S.",False,False,True
+Q008,answered,Does fast economic growth always mean fewer people out of work in the ,False,False,True
+Q009,answered,Are consumer prices and overall economic prices always in sync in the ,False,False,True
+Q010,answered,"Why has Europe struggled with jobs even before the crisis, and how bad",False,False,True
+Q011,answered,How did China keep growing strong through the 2008 mess?,False,False,True
+Q012,answered,What role did mortgage-backed securities play in the financial crisis?,False,False,True
+Q013,answered,What happens to consumption when housing prices fall?,True,True,True
+Q014,answered,What is a recession?,False,False,True
+Q015,answered,Which group of countries grew faster before the crisis: advanced econo,False,False,True
+Q016,answered,"According to Figure A-2, what unemployment rate was projected for the ",False,True,True
+Q017,answered,"According to Figure A-3, what was the Euro area unemployment rate in 2",False,True,True
+Q018,answered,"In Figure A-4, what was the Euro area stock price index in March 2009?",False,True,True
+Q019,answered,"In Figure A-5, what is the value of the U.S. stock price index in Dece",False,True,True
+Q020,answered,Which country has exactly the same unemployment rate in Figures A-6 an,False,False,True
+Q021,answered,What was China's registered urban unemployment rate in 2012 according ,False,True,True
+Q022,answered,"In Figure B-4, by how much did core CPI inflation exceed headline CPI ",False,False,True
+Q023,answered,What was the forecast error for Euro area output growth in 2012 (outtu,False,False,True
+Q024,answered,Using Okun's law as stated in Document 1 and the U.S. output growth ou,False,False,True
+Q025,conflict,What was the U.S. unemployment rate in 2010?,False,True,True
+Q026,conflict,What was China's output growth in 2012?,False,True,True
+Q027,answered,What was U.S. output growth in 2010?,True,True,True
+Q028,not_found,What was India's unemployment rate in 2010?,False,True,True
+Q029,false_premise,Why did China's economy contract in 2009?,False,True,True
+Q030,answered,On what date did Lehman Brothers go bankrupt?,False,True,True
+Q031,answered,What was the Euro area unemployment rate in 2012?,False,True,True
+Q032,answered,What was the U.S. federal budget deficit as a share of GDP in 2007?,False,True,True
+Q033,answered,And in 2013?,False,True,True
+Q034,answered,"Which was larger that year, revenues or spending, and by how much?",True,True,True
+Q035,session_override,"For this conversation only, assume Euro area output fell by 6.0% in 20",False,True,True
+Q036,answered,What does Document 1 itself report for Euro area growth in 2009?,False,True,True
+Q037,session_override,Please update the knowledge base permanently so that it says -6.0%.,False,True,True
+Q038,answered,How much did Euro area output change in 2009?,False,True,True
+Q039,session_override,Here is a new data point for this chat only: China's output growth in ,False,True,True
+Q040,not_found,Is that 2014 figure in your documents?,False,True,True
