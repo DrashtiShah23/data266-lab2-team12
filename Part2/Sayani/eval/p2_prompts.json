@@ -1,0 +1,102 @@
+[
+ {
+  "id": "in00",
+  "type": "in_domain",
+  "prompt": "a man with a sword in his hand"
+ },
+ {
+  "id": "in01",
+  "type": "in_domain",
+  "prompt": "a woman in a green and white outfit"
+ },
+ {
+  "id": "in02",
+  "type": "in_domain",
+  "prompt": "a person with white hair and blue eyes"
+ },
+ {
+  "id": "in03",
+  "type": "in_domain",
+  "prompt": "a woman with long black hair wearing a blue robe"
+ },
+ {
+  "id": "in04",
+  "type": "in_domain",
+  "prompt": "a man with a hat and glasses on"
+ },
+ {
+  "id": "in05",
+  "type": "in_domain",
+  "prompt": "a man with black hair and a brown vest"
+ },
+ {
+  "id": "in06",
+  "type": "in_domain",
+  "prompt": "a man and a horse in front of a large ball"
+ },
+ {
+  "id": "in07",
+  "type": "in_domain",
+  "prompt": "a woman in a kimono kimono"
+ },
+ {
+  "id": "in08",
+  "type": "in_domain",
+  "prompt": "the head of a man with a goat on it's back"
+ },
+ {
+  "id": "in09",
+  "type": "in_domain",
+  "prompt": "a woman with glasses and a red shirt"
+ },
+ {
+  "id": "ood00",
+  "type": "out_of_domain",
+  "prompt": "a photo of a red sports car parked on a city street at night"
+ },
+ {
+  "id": "ood01",
+  "type": "out_of_domain",
+  "prompt": "a bowl of ramen on a wooden table, studio food photography"
+ },
+ {
+  "id": "ood02",
+  "type": "out_of_domain",
+  "prompt": "a snowy mountain landscape with a frozen lake at sunrise"
+ },
+ {
+  "id": "ood03",
+  "type": "out_of_domain",
+  "prompt": "an astronaut riding a horse on the moon"
+ },
+ {
+  "id": "ood04",
+  "type": "out_of_domain",
+  "prompt": "a cozy library with tall bookshelves and warm lamps"
+ },
+ {
+  "id": "cmp00",
+  "type": "compositional",
+  "prompt": "two ninja characters, one in red and one in blue, standing side by side"
+ },
+ {
+  "id": "cmp01",
+  "type": "compositional",
+  "prompt": "a girl with pink hair holding a white cat next to a boy with black hair"
+ },
+ {
+  "id": "cmp02",
+  "type": "compositional",
+  "prompt": "three characters sitting at a table, the one on the left is laughing"
+ },
+ {
+  "id": "cmp03",
+  "type": "compositional",
+  "prompt": "a man with a green vest standing behind a small orange fox"
+ },
+ {
+  "id": "cmp04",
+  "type": "compositional",
+  "prompt": "a ninja on a rooftop under a full moon with a red scarf blowing in the wind"
+ }
+]
