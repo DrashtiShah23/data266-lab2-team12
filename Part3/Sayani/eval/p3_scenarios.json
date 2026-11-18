@@ -1,0 +1,186 @@
+[
+ {
+  "id": "S01",
+  "category": "caption",
+  "image": "dog_park.png",
+  "request": "What is in this image?",
+  "expect": {
+   "status": "done",
+   "route": "caption_question",
+   "min_answers": 2
+  },
+  "rubric": "Route caption_question; caption mentions a dog and a park; >=2 correct answers; no image generated."
+ },
+ {
+  "id": "S02",
+  "category": "caption",
+  "image": "menu.png",
+  "request": "Read the text in this image and tell me the price of tea.",
+  "expect": {
+   "status": "done",
+   "route": "caption_question",
+   "text_contains": [
+    "tea"
+   ]
+  },
+  "rubric": "Visible text transcribed; answer says tea costs $2."
+ },
+ {
+  "id": "S03",
+  "category": "caption",
+  "image": "kitchen.png",
+  "request": "How many pieces of fruit can you see?",
+  "expect": {
+   "status": "done",
+   "route": "caption_question",
+   "min_answers": 2
+  },
+  "rubric": "Gives a plausible count consistent with the image; caption + objects present."
+ },
+ {
+  "id": "S04",
+  "category": "style_change",
+  "image": "dog_park.png",
+  "request": "Turn this into a watercolor painting",
+  "expect": {
+   "status": "done",
+   "route": "style_change",
+   "image": true,
+   "min_clip": 22
+  },
+  "rubric": "Output keeps the dog/park layout and clearly looks like watercolor."
+ },
+ {
+  "id": "S05",
+  "category": "style_change",
+  "image": "mountain.png",
+  "request": "Make it look like a Van Gogh oil painting",
+  "expect": {
+   "status": "done",
+   "route": "style_change",
+   "image": true,
+   "min_clip": 22
+  },
+  "rubric": "Mountains/lake still recognisable; swirling oil-paint style."
+ },
+ {
+  "id": "S06",
+  "category": "style_change",
+  "image": "red_car.png",
+  "request": "Convert this photo into pixel art",
+  "expect": {
+   "status": "done",
+   "route": "style_change",
+   "image": true,
+   "min_clip": 22
+  },
+  "rubric": "Red car still present; blocky pixel-art look."
+ },
+ {
+  "id": "S07",
+  "category": "edit",
+  "image": "red_car.png",
+  "request": "Make the car blue",
+  "expect": {
+   "status": "done",
+   "route": "edit",
+   "image": true,
+   "min_clip": 20
+  },
+  "rubric": "Car becomes blue; background mostly unchanged."
+ },
+ {
+  "id": "S08",
+  "category": "edit",
+  "image": "cat_sofa.png",
+  "request": "Add a small red hat on the cat",
+  "expect": {
+   "status": "done",
+   "route": "edit",
+   "image": true,
+   "min_clip": 20
+  },
+  "rubric": "A red hat appears on the cat; cat and sofa preserved."
+ },
+ {
+  "id": "S09",
+  "category": "enhance",
+  "image": "kitchen.png",
+  "request": "Enhance the lighting and make it sharper",
+  "expect": {
+   "status": "done",
+   "route": "enhance",
+   "image": true
+  },
+  "rubric": "Brighter/sharper version of the same kitchen; no new objects."
+ },
+ {
+  "id": "S10",
+  "category": "domain_style",
+  "image": "portrait.png",
+  "request": "Turn this man into a Naruto anime character",
+  "expect": {
+   "status": "done",
+   "route": "domain_style",
+   "image": true,
+   "lora": true
+  },
+  "rubric": "Uses the Part 2 LoRA; output is Naruto-anime style; suit/pose kept."
+ },
+ {
+  "id": "S11",
+  "category": "domain_style",
+  "image": "cat_sofa.png",
+  "request": "Redraw this scene in Naruto anime style",
+  "expect": {
+   "status": "done",
+   "route": "domain_style",
+   "image": true,
+   "lora": true
+  },
+  "rubric": "Uses LoRA; anime style; cat on sofa still visible."
+ },
+ {
+  "id": "S12",
+  "category": "domain_style",
+  "image": "mountain.png",
+  "request": "Make this landscape look like a background from the Naruto anime",
+  "expect": {
+   "status": "done",
+   "route": "domain_style",
+   "image": true,
+   "lora": true
+  },
+  "rubric": "Uses LoRA; anime background look; mountains + lake kept."
+ },
+ {
+  "id": "S13",
+  "category": "ambiguous",
+  "image": "dog_park.png",
+  "request": "do something",
+  "expect": {
+   "status": "needs_clarification"
+  },
+  "rubric": "No generation; clear clarification message with examples; no crash."
+ },
+ {
+  "id": "S14",
+  "category": "broken",
+  "image": "broken.png",
+  "request": "Turn this into a watercolor painting",
+  "expect": {
+   "status": "error"
+  },
+  "rubric": "Clear message that the file is not a valid image; no crash."
+ },
+ {
+  "id": "S15",
+  "category": "broken",
+  "image": "blank.png",
+  "request": "Describe this image",
+  "expect": {
+   "status": "error"
+  },
+  "rubric": "Reports the image is blank; no hallucinated caption; no crash."
+ }
+]

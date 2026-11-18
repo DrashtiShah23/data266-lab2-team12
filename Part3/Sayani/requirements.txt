@@ -1,0 +1,19 @@
+# Versions used in the executed Kaggle runs (Python 3.13.16, CUDA 13.0, Tesla T4), as printed in each notebook's first cells.
+torch==2.11.0
+transformers==5.20.2
+tokenizers==0.23.3
+huggingface-hub==1.33.0
+datasets==4.8.5
+sentence-transformers==5.7.0
+chromadb==1.5.9
+pymupdf            # latest from PyPI on Nov 17 2026 (notebook prints its MuPDF binding version 2.1)
+rank-bm25==0.2.2
+diffusers==0.42.0
+peft==0.21.2
+torchmetrics==1.9.0
+torch-fidelity==0.3.0
+lpips==0.1.4
+gradio==6.30.0
+pandas
+matplotlib
+pillow

@@ -1,0 +1,16 @@
+id,ai_judge_verdict,critic_decision,ai_judge_reason
+S01,pass,accept,caption correct
+S02,pass,accept,menu read
+S03,pass,accept,fruit caption correct
+S04,pass,accept,clear watercolour after 2 revisions
+S05,pass,accept,painterly style
+S06,fail,accept,output is not pixel art; critic wrongly accepted
+S07,pass,accept,"car is blue, rest kept"
+S08,pass,accept,"red hat-like shape added, weak"
+S09,fail,accept,revisions destroyed the scene; no-critique output was better
+S10,fail,accept,replaced the man with a known anime character instead of restyling him (copyright concern)
+S11,fail,accept,cat scene replaced by an anime character
+S12,pass,accept,"landscape restyled, layout kept"
+S13,pass,n/a,asks for clarification
+S14,pass,n/a,clear error on broken image
+S15,pass,n/a,clear error on broken image
