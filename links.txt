@@ -1,0 +1,26 @@
+Team: Pair_Programming_Team_12
+Members: Sayani Brahmachari (018901935), Drashti Shah (013852046)
+
+# GitHub
+Repository: https://github.com/DrashtiShah23/data266-lab2-team12
+p1-v1.0 commit: 0065fd9588a34f9ed85a49f7142a683c83ba6558
+p2-v1.0 commit: 0065fd9588a34f9ed85a49f7142a683c83ba6558
+p3-v1.0 commit: 0065fd9588a34f9ed85a49f7142a683c83ba6558
+
+# Kaggle Part 1
+Kaggle team name: Pair_Programming_Team_12
+Competition: https://www.kaggle.com/competitions/data-266-fall-2026-lab-2-part-1-multimodal-rag/leaderboard
+Final notebook: https://colab.research.google.com/drive/1jRwk95_YB8n2o2q9YjUb1VQx8IZFhQ5a?usp=sharing
+Notebook version used for final submission: Executed Google Colab notebook
+
+# Hugging Face Part 2
+Model, run 1 LoRA: https://huggingface.co/sayani0706/data266-lab2-team12-p2-lora-r4
+Model, run 2 LoRA: https://huggingface.co/sayani0706/data266-lab2-team12-p2-lora-r32
+Generated images dataset: https://huggingface.co/datasets/sayani0706/data266-lab2-team12-p2-images
+
+# Hugging Face Part 3
+Input images dataset: not used
+Space: not used
+
+# Recordings
+Folder with meeting recordings: not included
