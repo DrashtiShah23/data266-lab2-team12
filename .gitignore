@@ -6,3 +6,6 @@ outputs/part1/artifacts/
 *.sqlite
 checkpoints/
 wandb/
+
+Part2/Drashti/results/lora/
+Part2/Drashti/results/part2_outputs/part2_outputs.zip
