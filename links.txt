@@ -3,9 +3,9 @@ Members: Sayani Brahmachari (018901935), Drashti Shah (013852046)
 
 # GitHub
 Repository: https://github.com/DrashtiShah23/data266-lab2-team12
-p1-v1.0 commit: 0065fd9588a34f9ed85a49f7142a683c83ba6558
-p2-v1.0 commit: 0065fd9588a34f9ed85a49f7142a683c83ba6558
-p3-v1.0 commit: 0065fd9588a34f9ed85a49f7142a683c83ba6558
+p1-v1.0 commit: 7b841e06349ad5d9effc7bf447822979ac986210
+p2-v1.0 commit: 7b841e06349ad5d9effc7bf447822979ac986210
+p3-v1.0 commit: 7b841e06349ad5d9effc7bf447822979ac986210
 
 # Kaggle Part 1
 Kaggle team name: Pair_Programming_Team_12
