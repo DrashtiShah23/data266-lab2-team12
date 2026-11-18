@@ -21,6 +21,7 @@ Generated images dataset: https://huggingface.co/datasets/sayani0706/data266-lab
 # Hugging Face Part 3
 Input images dataset: not used
 Space: not used
+Related generated images from Part 2: https://huggingface.co/datasets/sayani0706/data266-lab2-team12-p2-images
 
 # Recordings
 Folder with meeting recordings: not included
